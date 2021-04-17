@@ -1,0 +1,21 @@
+#tileHeader{
+    background-image: url('header.jpg');
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: 100;
+    width: 100%;
+}
+#welcomeText{
+    font-size: 50px;
+    font-family: 'Lobster', serif;
+    padding: 0vh 0vw 0vh 0vw;
+    border: 0 0 0 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: bisque;
+    
+}
+#navbarDiv{
+    border: 0 0 0 0;
+    padding: 0 0 0 0;
+}
