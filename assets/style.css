@@ -1,6 +1,10 @@
+#totalContainer{
+    margin:0 0 0 0;
+    width: 100%;
+}
 #tileHeader{
     background-image: url('header.jpg');
-    height: 180px;
+    height: 190px;
     background-repeat: no-repeat;
     background-size: 100;
     width: 100%;
@@ -14,6 +18,15 @@
     text-transform: uppercase;
     color: bisque;
     
+}
+.navbarText{
+    color: bisque;
+    font-size: 20px;
+    
+
+}
+.navbarText:hover{
+    color: burlywood;
 }
 #navbarDiv{
     border: 0 0 0 0;
