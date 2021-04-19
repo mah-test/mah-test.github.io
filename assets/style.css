@@ -9,6 +9,14 @@
     background-size: 100;
     width: 100%;
 }
+#tileHeaderResearch{
+    background-image: url('research.jpg');
+    height: 190px;
+    background-repeat: no-repeat;
+    background-size: 100;
+    width: 100%;
+}
+
 #welcomeText{
     font-size: 50px;
     font-family: 'Lobster', serif;
