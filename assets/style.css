@@ -40,3 +40,39 @@
     border: 0 0 0 0;
     padding: 0 0 0 0;
 }
+#mahyaDiv{
+    display: inline;
+    background-image: url('mahya.png');
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: 100;
+    width: 40vw;
+    
+
+}
+ #mahyaImage{
+    margin: 3vw 3vh 3vw 3vh;
+    height: 400px;
+    width: 400px;
+} 
+#textdiv{
+    display: inline;
+}
+.bodyText{
+    color: midnightblue;
+    font-size: 50px;
+    font-family: 'Merriweather', serif;
+    padding-top: 5vh;
+}
+.bodyDiv{
+    text-align: justify;
+    color: midnightblue;
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+    padding-top: 2vh;
+    width: 50vw; 
+    align-content: center;
+
+}
+#cardText{
+}
