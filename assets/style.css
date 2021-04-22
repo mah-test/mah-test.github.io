@@ -67,12 +67,39 @@
 .bodyDiv{
     text-align: justify;
     color: midnightblue;
-    font-size: 30px;
+    font-size: 27px;
     font-family: 'Merriweather', serif;
-    padding-top: 2vh;
-    width: 50vw; 
+    padding: 4vw 4vh 4vw 8vh ;
+    width: 70vw; 
     align-content: center;
+    line-height: 40px;
+
+}
+.topCardDiv{
+    text-align: justify;
+    color: midnightblue;
+    font-size: 27px;
+    font-family: 'Merriweather', serif;
+    width: 40vw; 
+    /* align-content: center; */
+    line-height: 50px;
+    padding: 3vw 2vh 3vw 3vh ;
+
 
 }
 #cardText{
+    padding: 7vw 0vh 4vw 0vh ;
+    width: 50vw; 
+
+   
+}
+#spectrumImage{
+    margin: 4vw 2vh 4vw 2vh;
+    height: 290px;
+    width: 400px;
+
+} 
+.clickingHover:hover{
+    color: blue;
+    font-size: 20px;
 }
