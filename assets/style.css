@@ -50,7 +50,11 @@
     
 
 }
+.researchGround{
+/* background-color: rgb(106, 147, 194); */
+}
  #mahyaImage{
+    display:inline-block ;
     margin: 3vw 3vh 3vw 3vh;
     height: 400px;
     width: 400px;
@@ -69,7 +73,7 @@
     color: midnightblue;
     font-size: 27px;
     font-family: 'Merriweather', serif;
-    padding: 4vw 4vh 4vw 0vh ;
+    /*padding: 4vw 4vh 4vw 0vh ;*/
     /* width: 70vw;  */
     align-content: center;
     line-height: 40px;
@@ -78,9 +82,9 @@
 .topCardDiv{
     text-align: justify;
     color: midnightblue;
-    font-size: 27px;
+    font-size: 31px;
     font-family: 'Merriweather', serif;
-    width: 40vw; 
+    /* width: 40vw;  */
     /* align-content: center; */
     line-height: 50px;
     padding: 3vw 2vh 3vw 3vh ;
@@ -88,20 +92,46 @@
 
 
 }
-#cardText{
-    padding: 7vw 0vh 4vw 0vh ;
-    /* display: inline-block; */
-     width: 50vw;  
+.topCardDivResearch{
+    text-align: justify;
+    color: midnightblue;
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    line-height: 40px;
+    padding: 3vw 2vh 3vw 3vh ;
+    margin: 0 0 0 0;
 
-   
+}
+
+.modalTitle{
+    text-align: justify;
+    color: midnightblue;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    line-height: 40px;
+    padding: 3vw 2vh 3vw 3vh ;
+    margin: 0 0 0 0;
+
+}
+
+#cardText{
+     width: 50vw;   
 }
 #spectrumImage{
-    margin: 4vw 2vh 4vw 2vh;
+    margin: 4vw 0vh 1vw 0vh;
     height: 290px;
     width: 400px;
+    align-content: center;
 
 } 
 .clickingHover:hover{
     color: blue;
     font-size: 20px;
+}
+.researchGround{
+    height: 2px;;
+    border-bottom: 40px;
+    margin: 3px 3px 3px 3px;
+    background-color: darkgrey;
 }
