@@ -50,8 +50,16 @@
     
 
 }
-.researchGround{
-/* background-color: rgb(106, 147, 194); */
+.researchBack{
+/* background-color: darkgray; */
+}
+    
+.researchOverlay{
+    background-color: white;
+    margin-top: 6vh;
+    margin-left: 6vw;
+    border: 3px;
+    border-color: gray;
 }
  #mahyaImage{
     display:inline-block ;
