@@ -58,8 +58,10 @@
     background-color: white;
     margin-top: 6vh;
     margin-left: 6vw;
-    border: 3px;
+    border: solid #000;
+    border-width: 1px;
     border-color: gray;
+    
 }
  #mahyaImage{
     display:inline-block ;
@@ -90,7 +92,7 @@
 .topCardDiv{
     text-align: justify;
     color: midnightblue;
-    font-size: 31px;
+    font-size: 29px;
     font-family: 'Merriweather', serif;
     /* width: 40vw;  */
     /* align-content: center; */
@@ -143,3 +145,21 @@
     margin: 3px 3px 3px 3px;
     background-color: darkgrey;
 }
+.footerText{
+    color: bisque;
+    display: inline;
+
+}
+.topCardDivPub{
+    text-align: justify;
+    color: midnightblue;
+    font-size: 16px;
+    font-family: 'Merriweather', serif;
+    /* width: 40vw;  */
+    /* align-content: center; */
+    line-height: 25px;
+    margin: 0 0 0 0;
+
+
+}
+

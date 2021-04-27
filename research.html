@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/reset.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/academicons.min.css"/>
+
+
+    
     
   </head>
 <body>
@@ -28,7 +33,7 @@
                   <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                   <ul id="nav-mobile" class="left hide-on-med-and-down">
                     <li><a href="index.html" class="navbarText"> <i class="material-icons left">home</i>Home</a></li>
-                    <li><a href="badges.html"class="navbarText">Publication</a></li>
+                    <li><a href="publication.html"class="navbarText">Publication</a></li>
                     <li><a href="assets/Mahya_Safavi_CV.pdf"class="navbarText">My CV</a></li>
                     <li><a href="research.html"class="navbarText">Research</a></li>
                    
@@ -38,7 +43,7 @@
               </nav>
               <ul class="sidenav" id="mobile-demo">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="badges.html">Publication</a></li>
+                <li><a href="publication.html">Publication</a></li>
                 <li><a href="assets/Mahya_Safavi_CV.pdf">My CV</a></li>
                 <li><a href="research.html">Research</a></li>
               </ul>
@@ -47,7 +52,7 @@
 
      <div class="col s12 m12 l12 researchBack">
       <div class="col s1 m1 l1 researchSpace"></div>
-      <div class="col s10 m10 l10 researchOverlay">
+      <div class="col s10 m10 l10  border researchOverlay">
 
         <!-- spectrum sensing -->
               <div class="col s12 m12 l12">
@@ -217,34 +222,36 @@
 
         </div>
 
-        <!-- IR -->
+        <!-- ppg-->
 
         <div class="col s12 m12 l12 researchGround "> </div>
         <div class="col s12 m12 l12 ">
-          <div class="activator col s12 m12 l5 ">
-              <img id="spectrumImage" class="activator" src="assets/blue.png">
+          <div class="activator col s12 m12 l6 ">
+              <img id="spectrumImage" class="activator" src="assets/ppg.png">
           </div>
-          <div class="activator col s12 m12 l7">
-              <p class="topCardDiv">5- Bluebox :A Complete Recorder for Code-Blue Events in Hospitals
+          <div class="activator col s12 m12 l6">
+              <p class="topCardDiv">6- Analysis of Cardiovascular Changes Caused by
+                Epileptic Seizures in Human
+                Photoplethysmogram Signal
 
                 </p>
         <!-- Modal Trigger -->
               <a class="waves-effect waves-light btn modal-trigger teal darken-4" href="#modal5">Learn more ...</a>
               <div id="modal5" class="modal modal-fixed-footer">
                 <div class="modal-content">
-                  <h4 class="modalTitle">A Complete Recorder for Code-Blue Events in Hospitals</h4>
-                  <p class="topCardDivResearch">BlueBox is an electronic recorder for code-blue
-                    events, a term for dire emergency that calls for an immediate
-                    cardiopulmonary resuscitation (CPR) following a cardiac or
-                    respiratory arrest. It records all relevant vital signs, including
-                    ECG and cardiac rhythm, verbal orders and their execution,
-                    chest compression, cardioversion and defibrillation procedures,
-                    medications, and labs. The prototype was built and successfully
-                    tested on a high-fidelity mannequin in the simulation center and
-                    on pigs in the animal lab. The results shows BlueBox to be able
-                    to support medical training and quality improvement in codeblue
-                    situations and to enhance safety for patients undergoing
-                    CPR in hospitals.</p>
+                  <h4 class="modalTitle">Analysis of Cardiovascular Changes Caused by
+                    Epileptic Seizures in Human
+                    Photoplethysmogram Signal</h4>
+                  <p class="topCardDivResearch">We used an optical sensor called photoplethysmogram (PPG) to investigate 
+                    the variations in ictal blood ﬂow in limbs. For this part, we had to write an IRB protocol narrative from scratch
+                     to be able to record human subjects. More than 40 subjects were recorded among which we only ended up using signal
+                      from 12 subjects. The subject were dropped out of the study since they did not have seizures during the time of recording.
+                       The PPG signal was recorded from the left ankle of the subjects as well as the surface EEG and ECG signal. 
+                       Six diﬀerent features related to hemodynamics from PPG pulse morphology were extracted and their variations were compared 
+                       in ictal and pre-ictal phases. A consistent pattern of ictal change was observed across all the subjects/seizures.
+                        These variations sometimes precede the seizures by 50 seconds and suggest an increase in vascular resistance due to
+                         an increase in sympathetic tone. These features were used to train a neural network based on Long Short Term Memory
+                          LSTM architecture for automatic seizure detection. We were able to reduce the False Alarm rate by 50%.</p>
                 </div>
                 <div class="modal-footer">
                   <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
@@ -254,8 +261,33 @@
         </div>
       </div>
       <div class="col s1 m1 l1"></div>
-    </div>  
+    </div> 
+    
+    
+    
   </div>
+  <footer class="page-footer teal darken-4">
+    <div class="container teal darken-4">
+      <div class="row">
+        <div class="col l12 s12 ">
+          <h5 class="footerText">Connect with me   </h5>
+          <a href="https://www.linkedin.com/in/mahya-safavi-a81a3115/" >
+            <i class="fa fa-linkedin-square" style="font-size:44px"></i>
+          </a>
+         
+          <a href="https://github.com/safavis">
+            <i class="fa fa-github" aria-hidden="true"  style="font-size:44px"></i>
+          </a>
+          <a href="https://scholar.google.com/citations?user=QX-L_YgAAAAJ&hl=en" >
+            <i class="ai ai-google-scholar-square ai-3x"></i>
+
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+ 
 </div>
         <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
